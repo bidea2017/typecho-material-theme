@@ -1,6 +1,6 @@
 # typecho-material-theme
 
-typecho material风格主题，修改[Hanccc](https://github.com/Hanccc/typecho-material-theme)主题。
+typecho material风格主题，修改自[Hanccc](https://github.com/Hanccc/typecho-material-theme)主题。
 
 ## Install
 1. 把主题下载后放在`/usr/themes/`文件夹下
@@ -21,4 +21,7 @@ typecho material风格主题，修改[Hanccc](https://github.com/Hanccc/typecho-
 ## screenshot
 
 ![首页](http://i3.tietuku.com/f9c6b781a1325303.png)
+
+
 ![后台](http://i3.tietuku.com/70245be5cc92f615.png)
+
