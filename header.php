@@ -77,7 +77,7 @@
 				      	<?php endif; ?>
 						
 						<?php if ($this->options->qqgroup): ?>
-				      	<li><a href="<?php $this->options->qqgroup() ?>" target="_blank"><i class="fa fa-users"></i> QQ群</a></li>
+				      	<li><?php $this->options->qqgroup() ?></li>
 				      	<?php endif; ?>
 				    </ul>
                     <?php endif; ?>
