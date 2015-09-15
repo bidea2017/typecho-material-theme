@@ -66,7 +66,6 @@
 				    <ul class="nav navbar-nav navbar-right">
 				    	<?php if($this->user->hasLogin()): ?>
 				    		<li><a href="<?php $this->options->adminUrl(); ?>"><?php $this->user->screenName(); ?></a></li>
-				    		<li><a href="<?php $this->options->logoutUrl(); ?>">Logout</a></li>
 				      	<?php endif; ?>
 				      	<?php if ($this->options->githubName): ?>
 				      	<li><a href="httsp://github.com/<?php $this->options->githubName() ?>" target="_blank"><i class="fa fa-github-alt"></i> github</a></li>
@@ -77,7 +76,7 @@
 				      	<?php endif; ?>
 						
 						<?php if ($this->options->qqgroup): ?>
-				      	<li><?php $this->options->qqgroup() ?></li>
+				      	<li><a href="<?php $this->options->qqgroup() ?>" target="_blank"><i class="fa fa-users"></i> QQ群</a></li>
 				      	<?php endif; ?>
 				    </ul>
                     <?php endif; ?>
