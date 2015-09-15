@@ -75,7 +75,10 @@
 				      	<?php if ($this->options->weibolink): ?>
 				      	<li><a href="<?php $this->options->weibolink() ?>" target="_blank"><i class="fa fa-weibo"></i> weibo</a></li>
 				      	<?php endif; ?>
-
+						
+						<?php if ($this->options->qqgroup): ?>
+				      	<li><a href="<?php $this->options->qqgroup() ?>" target="_blank"><i class="fa fa-users"></i> QQ群</a></li>
+				      	<?php endif; ?>
 				    </ul>
                     <?php endif; ?>
 			  	</div>

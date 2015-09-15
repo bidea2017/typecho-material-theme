@@ -14,6 +14,7 @@ typecho material风格主题，修改自[Hanccc](https://github.com/Hanccc/typec
 - 备案号自定义
 - Github账号自定义
 - 微博链接自定义
+- 添加QQ群
 - 统计代码自定义
 - 定义是否显示加载时间
 - 手机端自适应

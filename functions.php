@@ -18,7 +18,10 @@ function themeConfig($form) {
 
     $weibolink = new Typecho_Widget_Helper_Form_Element_Text('weibolink', NULL, _t('http://weibo.com/u/5238733773'), _t('微博链接'), _t('输入微博链接地址'));
     $form->addInput($weibolink);
-
+	
+	$qqgroup = new Typecho_Widget_Helper_Form_Element_Text('qqgroup', NULL, _t(''), _t('QQ群代码'), _t('输入QQ群代码'));
+    $form->addInput($qqgroup);
+		
     $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', array(
         'ShowSearch' => _t('显示搜索框'),
         'ShowRecentPosts' => _t('显示最新文章'),
