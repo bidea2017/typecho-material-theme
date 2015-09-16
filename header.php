@@ -68,7 +68,7 @@
 				    		<li><a href="<?php $this->options->adminUrl(); ?>"><?php $this->user->screenName(); ?></a></li>
 				      	<?php endif; ?>
 				      	<?php if ($this->options->githubName): ?>
-				      	<li><a href="httsp://github.com/<?php $this->options->githubName() ?>" target="_blank"><i class="fa fa-github-alt"></i> github</a></li>
+				      	<li><a href="https://github.com/<?php $this->options->githubName() ?>" target="_blank"><i class="fa fa-github-alt"></i> github</a></li>
 				      	<?php endif; ?>
 
 				      	<?php if ($this->options->weibolink): ?>
