@@ -29,11 +29,10 @@
 	<script src="https://dn-biezhi.qbox.me/material.min.js"></script>
 	<script src="https://dn-biezhi.qbox.me/ripples.min.js"></script>
 	<script src="https://dn-biezhi.qbox.me/highlight/highlight.pack.js"></script>
-
+	<script src="<?php $this->options->themeUrl('js/bubble.js'); ?>"></script>
 	<script>
       $.material.init();
       hljs.initHighlightingOnLoad();
-
     </script>
 	</body>
 </html>

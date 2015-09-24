@@ -1,9 +1,10 @@
 .h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4 {
-	font-family:RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;
+	font-family: RobotoDraft,Roboto,"Helvetica Neue",Helvetica,"Segoe UI","Microsoft YaHei",arial,sans-serif;
 	font-weight:400
 }
 p {
-	line-height: 25px
+	line-height: 25px;
+	font-size: 16px;
 }
 body>.container {
 	margin-top:20px;
@@ -25,6 +26,9 @@ footer {
 }
 #main {
 	padding-top:80px
+}
+.post-content li{
+	font-size: 16px;
 }
 .navbar.navbar-inverse {
 	border:0;
@@ -113,7 +117,7 @@ footer {
 	border-radius:25px;
 	height:32px;
 	width:32px;
-	font-size:14px
+	font-size:16px
 }
 .col-md-3 .panel .item {
 	position:relative;
@@ -206,7 +210,7 @@ cite.fn {
 	content:" ";
 	display:table;
 	clear:both;
-	font-size:14px;
+	font-size:16px;
 	padding:10px 0
 }
 .cancel-comment-reply,.comment-reply {
