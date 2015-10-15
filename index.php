@@ -22,7 +22,6 @@ $this->need('header.php');
 			</div>
 		</div>
 	</div>
-	<canvas class="demo-canvas" id="demo-canvas"></canvas>
 </section>
 <div class="container">
 	<div class="row">
